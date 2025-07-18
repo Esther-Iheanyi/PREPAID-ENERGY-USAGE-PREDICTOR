@@ -3,17 +3,26 @@ This project predicts how long prepaid electricity will last based on appliances
 
 <img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/fb79947f-d076-4d28-bf99-a514ff677066" />
 
-AI prediction model 
-Takes in:
-Daily_Energy_kWh (from Excel calculation)
-Units_Purchased (user input)
-Predicts:Days_Lasted — how long the energy will last
-https://drive.google.com/file/d/1QFOyxil5X9lsWo0EpEYaDpxPDlrlODil/view?usp=sharing
+Prediction Model
+
+ Trained machine learning model.
+
+It contains the logic learned from past energy usage data to predict how long purchased energy will last.
 
 
+https://drive.google.com/file/d/1Q_spR0UaE0Zh2qtDvGp6XIhiwbJ4yRJg/view?usp=sharing
 
-Python Prediction Script — a function that:Loads this model
-Accepts daily_energy_kwh and units_purchased as inputs
-Returns the predicted number of days
-https://drive.google.com/file/d/1uQ-g_JSHMZYBFcDiGVGJ2glaKdsYEi33/view?usp=sharing
+This is the Python script that Excel calls.
+
+It:
+Reads user inputs from Excel,
+
+Loads the clean_energy_model.pkl,
+
+Uses it to make predictions,
+
+Returns the result back into Excel.
+
+
+https://drive.google.com/file/d/1NiEGsHT-bGX1_xf1frjP6r0TzbbOkJ2l/view?usp=sharing
 
