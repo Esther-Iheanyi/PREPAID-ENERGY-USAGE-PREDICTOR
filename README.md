@@ -26,3 +26,10 @@ Returns the result back into Excel.
 
 https://drive.google.com/file/d/1NiEGsHT-bGX1_xf1frjP6r0TzbbOkJ2l/view?usp=sharing
 
+i trained this model using this datast generated from chatgpt
+https://docs.google.com/spreadsheets/d/1eAP4Bn-EplsC7xt0c4pohP2lsgIT_FbH/edit?usp=sharing&ouid=102474610801018817255&rtpof=true&sd=true
+
+I also used a dataset containing a household energy usage for a month to create an interactive dashboard
+https://docs.google.com/spreadsheets/d/1rh83fKGSqVoJcbJFOywt3tDqB07nTnLA/edit?usp=sharing&ouid=102474610801018817255&rtpof=true&sd=true
+
+
